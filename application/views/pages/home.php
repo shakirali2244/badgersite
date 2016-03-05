@@ -10,17 +10,17 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="first-slide"alt="First slide">
+          <img id = "first-slide" alt="First slide">
           <div class="container">
-            <div class="carousel-caption">
+            <div id = "game"  class="carousel-caption">
              <h1>2D platform jumper</h1>
-              <p><code>Beta</code> Basejumper written in C# using unity3d</p>
-              <p><a class="btn btn-lg btn-primary" href="/basejumper" role="button">Play Now</a></p>
+              <p><code>In Dev</code> Basejumper written in C# using unity3d</p>
+              <p><a class="btn btn-lg btn-primary hvr-bounce-in" href="/basejumper" role="button">Play Now</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" alt="Second slide">
+          <img id = "second-slide" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 class="black">Real Time Location Sharing</h1>

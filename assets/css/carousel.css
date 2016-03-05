@@ -5,7 +5,18 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: 'Ubuntu', serif;
 }
+
+@font-face {
+    font-family: "drift";
+    src: url(/dist/fonts/Drift.ttf) format("truetype");
+}
+div.game { 
+    font-family: "drift";
+}
+
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -29,8 +40,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
   height: 32rem;
+  min-height: 100%;
+  min-width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .carousel-indicators {
@@ -50,13 +64,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: none;
-  min-height: 100%;
-  min-width:100%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -113,14 +121,17 @@ body {
 }
 
 
-img.first-slide{
+#first-slide{
   content:url("/assets/img/bg-1.png");
+   max-width: none;
 }
-img.second-slide{
+#second-slide{
   content:url("/assets/img/bg-2.png");
+   max-width: none;
 }
-img.third-slide{
+#third-slide{
   content:url("/assets/img/bg.jpg");
+   max-width: none;
 }
 
 h1.black{
@@ -136,3 +147,23 @@ p.black{
     margin-right: 0rem;
     font-size: 1.25rem;
 }
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+

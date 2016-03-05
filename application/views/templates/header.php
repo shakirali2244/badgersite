@@ -16,10 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/carousel.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/dist/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
   </head>
   <body>
 
-    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded" style="background-color: #e3f2fd;">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
     &#9776;
   </button>
@@ -29,7 +32,10 @@
         <li class="nav-item"><a href="/" class = "nav-link">Home</a></li>
         <li class="nav-item"><?php echo anchor('/about', 'About' ,'class="nav-link"');?></li>
         <li class="nav-item"><?php echo anchor('/contact', 'Contact','class="nav-link"');?></li>
+        <li class="nav-item pull-xs-right" ><a href="https://www.facebook.com/Badgerw0rks/" class = "nav-link"  style ="margin:-5px ;"><i class="fa fa-facebook fa-2x" s></i></a></li>
+        <li class="nav-item pull-xs-right" ><a href="https://badgerw0rks.tumblr.com" class = "nav-link"  style =" margin: -5px ;"><i class="fa fa-tumblr fa-2x"></i></a></li>
       </ul>
+       
       </div>
     </nav>
 
