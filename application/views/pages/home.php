@@ -25,7 +25,7 @@
             <div class="carousel-caption">
               <h1 class="black">Real Time Location Sharing</h1>
               <p class="black">Cross Platform Chatting and location Sharing utility</p>
-              <p class="black"><a class="btn btn-lg btn-primary" href="/mapchat" role="button">Learn more</a></p>
+              <p class="black"><a class="btn btn-lg btn-primary hvr-bounce-in" href="/mapchat" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -59,12 +59,10 @@
       
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Online Communities based fun chat rooms</h2>
+          <p class="lead">Talk about everyday stuff in trending topics based groupchat rooms with fun bot commands.</p>
+          <p style="text-align: center"><a class="btn btn-lg btn-primary hvr-bounce-in" href="http://redditchat.us.to/" role="button">TRY! Now</a></p>
         </div>
       </div>
 
