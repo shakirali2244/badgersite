@@ -23,6 +23,7 @@
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-light bg-faded" style="background-color: #e3f2fd;">
+    <div class="container">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
     &#9776;
   </button>
@@ -36,7 +37,7 @@
         <li class="nav-item pull-xs-right" ><a href="https://badgerw0rks.tumblr.com" class = "nav-link"  style =" margin: -5px ;"><i class="fa fa-tumblr fa-2x"></i></a></li>
       </ul>
        
-      </div>
+      </div></div>
     </nav>
 
 
