@@ -59,11 +59,13 @@
       
 
       <div class="row featurette">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <h2 class="featurette-heading">Online Communities based fun chat rooms</h2>
           <p class="lead">Talk about everyday stuff in trending topics based groupchat rooms with fun bot commands.</p>
           <p style="text-align: center"><a class="btn btn-lg btn-primary hvr-bounce-in" href="http://redditchat.us.to/" role="button">TRY! Now</a></p>
         </div>
+        <div class="col-md-6"><h2 class="featurette-heading">Archived vlogs.</h2><p class="lead">Past RF/IR hardware applications, multirotars, Iot.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLzM0xssHiQHIOLLACfTowC2f10-uoctpp" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <hr class="featurette-divider">

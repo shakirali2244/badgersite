@@ -6,8 +6,15 @@ class Pages extends CI_Controller {
         $this->load->helper('url');
         if ( ! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
         {
-                // Whoops, we don't have a page for that!
-                show_404();
+                
+        	    if(strcmp($page,'crawler') ==0){
+        	    	redirect('https://github.com/shakirali2244/crawler');
+        	    }else if(strcmp($page,'osm') ==0){
+        	    	redirect('http://badgerw0rks.tumblr.com/post/119086912847/reverse-geocoding-function-in-pgsql-for-postgis');
+        	    }else{// Whoops, we don't have a page for that!
+        	    	show_404();
+        	    }
+                
         }
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
