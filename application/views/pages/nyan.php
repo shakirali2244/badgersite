@@ -1,4 +1,67 @@
- <div class="mastfoot">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>BadgerWorks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    body{background-image: url("assets/img/nyan.gif");
+    background-color: rgb(4, 53, 100);
+    background-size: 60%;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;}
+    </style>
+  </head>
+
+  <body>
+  <div  id="particles-js"></div>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt"<?php echo $companyName; ?>" style="height: 5rem; margin:-10px 0px -10px -10px ;"/></a>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="https://www.facebook.com/Badgerw0rks/" class = "nav-link"><i class="fa fa-facebook fa-2x" s></i></a></li>
+                  <li><a href="https://badgerw0rks.tumblr.com" class = "nav-link"><i class="fa fa-tumblr fa-2x"></i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div> <div class="mastfoot">
             <div class="inner">
               <p>&copy; 2016 <?php echo $companyName; ?>, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </div>
@@ -22,17 +85,17 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 40,
+      "value": 100,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#302a96"
+      "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -41,7 +104,7 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
         "width": 100,
         "height": 100
       }
@@ -57,7 +120,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 2,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
@@ -67,18 +130,18 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 150,
-      "color": "#000",
+      "color": "#ffffff",
       "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
+      "speed": 14,
+      "direction": "left",
       "random": false,
-      "straight": false,
+      "straight": true,
       "out_mode": "out",
       "bounce": false,
       "attract": {
@@ -92,18 +155,18 @@ particlesJS("particles-js", {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
-        "mode": "repulse"
+        "enable": false,
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 200,
         "line_linked": {
           "opacity": 1
         }

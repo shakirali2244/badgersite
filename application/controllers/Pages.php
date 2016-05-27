@@ -19,8 +19,12 @@ class Pages extends CI_Controller {
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
         $data['companyName'] = 'BadgerWorks';
-        $this->load->view('templates/header', $data);
-        $this->load->view('pages/'.$page, $data);
-        $this->load->view('templates/footer', $data);
+        if(strcmp($page,'nyan') == 0){
+                 $this->load->view('pages/'.$page, $data);
+         }else{
+                $this->load->view('templates/header', $data);
+                $this->load->view('pages/'.$page, $data);
+                $this->load->view('templates/footer', $data);  
+         }
 }
 }
