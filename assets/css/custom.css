@@ -24,6 +24,11 @@ a:hover {
  * Base structure
  */
 
+ @font-face {
+    font-family: beantown;
+    src: url(../fonts/Beantown.ttf);
+}
+
 html,
 body {
   height: 100%;
@@ -59,13 +64,33 @@ body {
 }
 
 .mid{
-  width:70%;
+  width:80%;
   height:20%;
   position: absolute; 
   left:15%;
   top: 40%;
+  text-align: left;
 }
 
+.topmid{
+  width:80%;
+  height:20%;
+  position: absolute; 
+  left:10%;
+  top: 15%;
+  text-align: left;
+  padding: 30px;
+}
+
+#intro{
+  font-family: beantown;
+  font-size: 10vh;
+}
+
+div.page{
+  background: white;
+  border-radius: 5px;
+}
 
 /*
  * Header
@@ -164,7 +189,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 80%
   }
 }
 
