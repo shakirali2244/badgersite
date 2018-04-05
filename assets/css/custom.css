@@ -19,6 +19,9 @@ a:hover {
   border: 1px solid #fff;
 }
 
+canvas {
+ height: 99% !important;
+}
 
 /*
  * Base structure
@@ -65,11 +68,10 @@ body {
 
 .mid{
   width:80%;
-  height:20%;
+  height:25%;
   position: absolute; 
-  left:15%;
-  top: 40%;
-  text-align: left;
+  top: 20%;
+  text-align: center;
 }
 
 .topmid{
