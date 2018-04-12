@@ -75,14 +75,20 @@ body {
 }
 
 .topmid{
-  width:80%;
-  height:20%;
+  width:90%;
+  height:80%;
+  overflow: auto;
   position: absolute; 
-  left:10%;
+  left:5%;
   top: 15%;
   text-align: left;
   padding: 30px;
 }
+
+.custom-title{
+  color: #fff;
+}
+
 
 #intro{
   font-family: beantown;
@@ -90,7 +96,7 @@ body {
 }
 
 div.page{
-  background: white;
+  background: #000000ab;
   border-radius: 5px;
 }
 
@@ -100,6 +106,7 @@ div.page{
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  float: left;
 }
 
 .masthead-nav > li {
@@ -130,14 +137,10 @@ div.page{
   border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
   .masthead-nav {
     float: right;
   }
-}
+
 
 
 /*

@@ -1,6 +1,8 @@
  <div class="mastfoot">
-            <div class="inner">
-              <p>&copy; 2018 <?php echo $companyName; ?>, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <div>
+               <a href="https://github.com/shakirali2244/" class = "nav-link"><i class="fa fa-github fa-2x" s></i></a>&nbsp
+               <a href="https://www.linkedin.com/in/sha256kir/" class = "nav-link"><i class="fa fa-linkedin fa-2x" s></i></a>&nbsp
+              <!-- p>&middot; <?php echo $companyName; ?>. &middot; </p -->
             </div>
           </div>
 

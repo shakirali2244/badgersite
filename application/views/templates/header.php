@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +19,7 @@
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/buttons.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:300">
 
 
@@ -49,8 +51,8 @@
               <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt"<?php echo $companyName; ?>" style="height: 5rem; margin:-10px 0px -10px -10px ;"/></a>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li><a href="https://www.facebook.com/Badgerw0rks/" class = "nav-link"><i class="fa fa-facebook fa-2x" s></i></a></li>
-                  <li><a href="https://badgerw0rks.tumblr.com" class = "nav-link"><i class="fa fa-tumblr fa-2x"></i></a></li>
+                  <li><a href="https://badgerw0rks.tumblr.com/" class = "nav-link">Blog</a></li>
+                  <li><a href="/projects" class = "nav-link">Projects</a></li>
                 </ul>
               </nav>
             </div>

@@ -1,6 +1,6 @@
 <div class="inner cover mid">
             <h1 class="cover-heading"><p id="intro">Welcome to BadgerWorks</p><br/> </h1>
-            <p class="lead">Check some of my older work below or refer my Github  <b><a href="https://github.com/shakirali2244">here</a></b>.</p>
+            <a href="/assets/Resume_Public.pdf" class="button button-inverse button-rounded"><i class="fa fa-download"></i> Resume</a>
             <p class="lead">
             
               <div class="btn-group">
@@ -8,9 +8,11 @@
                   Projects <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="/game">2D physics Game</a></li>
+                  <li><a href="/crawler">Internet Crawler</li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="http://redditchat.us.to/">Room based Websocket Chat</a></li>
+                  <li><a href="http://chat.badgerworks.org/">Room-based Websocket Chat</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/game">2D Game</a></li>
                 </ul>
                 </p>
           </div>
