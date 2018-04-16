@@ -39,7 +39,7 @@ body {
   font-family: 'Ubuntu', serif;
 }
 body {
-  color: black;
+  color: white;
   background-color: #52B3D9;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -75,12 +75,12 @@ body {
 }
 
 .topmid{
-  width:90%;
+  width:80%;
   height:80%;
   overflow: auto;
   position: absolute; 
-  left:5%;
   top: 15%;
+  left: 10%;
   text-align: left;
   padding: 30px;
 }
@@ -93,6 +93,7 @@ body {
 #intro{
   font-family: beantown;
   font-size: 10vh;
+  color: black;
 }
 
 div.page{
@@ -135,6 +136,10 @@ div.page{
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+li.list-group-item{
+ color:black;
 }
 
   .masthead-nav {
@@ -197,7 +202,6 @@ div.page{
     width: 80%
   }
 }
-
 .panel-title{
   color: black;
 }
