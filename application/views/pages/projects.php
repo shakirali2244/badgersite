@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-md-4 project">
           <h2>Multithreaded Web Crawler</h2>
-          <p>Maven project written in Java using Threads, the crawler crawls webpages and mines for links and queues them for simultaneous crawling. Data is stored in PostreSQL using JDBC.
+          <p>Maven project written in Java using Threads, the crawler crawls webpages and mines for links and queues them for simultaneous crawling. Data is stored in PostgreSQL using JDBC.
           <p><a class="btn btn-default" href="/crawler" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4 project">

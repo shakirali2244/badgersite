@@ -1,7 +1,8 @@
  <div class="mastfoot">
             <div>
-               <a href="https://github.com/shakirali2244/" class = "nav-link"><i class="fa fa-github fa-2x" s></i></a>&nbsp
-               <a href="https://www.linkedin.com/in/sha256kir/" class = "nav-link"><i class="fa fa-linkedin fa-2x" s></i></a>&nbsp
+               <a href="https://github.com/shakirali2244/" class = "nav-link black"><i class="fa fa-github fa-2x" s></i></a>&nbsp
+               <a href="https://www.linkedin.com/in/sha256kir/" class = "nav-link black"><i class="fa fa-linkedin fa-2x" s></i></a>&nbsp
+               <a href="https://badgerw0rks.tumblr.com" class = "nav-link black"><i class="fa fa-tumblr fa-2x" s></i></a>&nbsp
               <!-- p>&middot; <?php echo $companyName; ?>. &middot; </p -->
             </div>
           </div>

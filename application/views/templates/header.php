@@ -51,10 +51,10 @@
               <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt"<?php echo $companyName; ?>" style="height: 5rem; margin:-10px 0px -10px -10px ;"/></a>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li><a href="/assets/Resume_Public.pdf" class="nav-link"><i class="fa fa-download"></i> Resume</a>
-                  <li><a href="http://badgerworks.org:8080" class="nav-link"> Avian</a></li>
-                  <li><a href="/projects" class = "nav-link">Projects</a></li>
-                  <li><a href="https://badgerw0rks.tumblr.com/" class = "nav-link">Blog</a></li>
+                  <li><a href="/assets/Resume_Public.pdf" class="nav-link"><i class="fa fa-download"></i> RESUME</a>
+                  <li><a href="http://badgerworks.org:8080" class="nav-link"> AVIAN</a></li>
+                  <li><a href="/projects" class = "nav-link"> PROJECTS</a></li>
+                  <li><a href="https://badgerw0rks.tumblr.com/" class = "nav-link"> BLOG</a></li>
                 </ul>
               </nav>
             </div>

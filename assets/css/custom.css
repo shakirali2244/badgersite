@@ -6,6 +6,12 @@
 a,
 a:focus,
 a:hover {
+  color: #00ffc6;
+}
+
+a.black,
+a.black:focus,
+a.black:hover{
   color: black;
 }
 
